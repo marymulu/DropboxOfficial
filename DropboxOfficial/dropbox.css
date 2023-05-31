@@ -125,15 +125,17 @@ li {
 /* fourth section of webpage*/
 .section4 {
   background-color: #f7f5f2;
-  height: fit-content;
+  /* height: fit-content; */
   color: #1e1919;
+  margin-top: 0;
+  padding-top: 0;
 }
 
-.section4 p {
+.section4p {
   text-align: center;
 }
 .section4container {
-  display: table;
+  display: table-cell;
   margin: 100px;
   text-align: left;
 }
@@ -151,9 +153,9 @@ li {
   color: #f7f5f2;
 }
 
-.section5 p {
+/* .section5 p {
   text-align: center;
-}
+} */
 .section5 img {
   display: block;
   margin-left: auto;
