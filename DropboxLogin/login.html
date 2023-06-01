@@ -14,9 +14,9 @@
       nav {
         font-size: 20px;
         color: #1e1919;
-        position: fixed;
         margin-top: 0;
-        border: 1px solid green;
+        position: fixed;
+        border-bottom: 1px solid grey;
       }
 
       nav img {
@@ -43,65 +43,105 @@
         font-weight: 600;
       }
       /* This is where the content starts */
-      .webpage {
+      .body {
         border: 4px solid red;
         display: flex;
         justify-content: center;
         align-items: center;
+        position: relative;
         padding-top: 100px;
         padding-left: 200px;
         padding-bottom: 350px;
+      }
+      .centerwebpage {
+        border: 4px solid green;
         position: relative;
+        top: 40px;
+        margin-left: -100px;
+        margin-right: 50px;
+        padding-right: -400px;
+        /* padding-left: 90; */
       }
 
       .logincreate {
         border: 3px solid yellow;
-        margin-top: 70px;
-        margin-left: -250px;
+        position: absolute;
+        /* margin-right: 20px; */
+        /* margin-top: 70px;
+       */
       }
       .login {
         float: left; /* This keeps login on the left */
-        /* position: left; */
+        font-size: 20px;
+        /* position: absolute; /*position offthis container are based of .logincantainer */
       }
 
       .create {
         float: right; /* This keeps create on the right*/
+        padding-left: 0; /* This is the space between create and login */
+        margin-left: 95px;
+        /* padding-top: 0px;  */
+        /* margin-top: 40; */
+        /* margin-right: ; */
         /* position: right; */
-        padding-left: 60px; /* This is the space between create and login */
-        padding-top: 15px; /* This aligns create and login vertically */
       }
 
-      button {
-        left: 50%;
-        border: none;
-        padding-left: 60px;
-        padding-right: 60px;
+      .googleapple {
+        left: 30%;
+        border: 4px solid blue;
+        background-color: transparent;
+        margin-top: px;
+        font-size: 13px;
+        /* padding-left: 60px; */
+        /* margin-right: 100px; */
+        /* padding-top: 0; */
+        /* top: 90px; */
+        /* position: absolute; */
       }
 
       .google {
-        margin-top: 0;
-        position: absolute;
         height: 24px;
+        margin-left: -54px;
+        /* margin-top: 0; */
+        /* position: absolute; */
       }
 
       .apple {
-        margin-top: 0;
-        position: absolute;
         height: 24px;
-        top: 20%;
-        margin-top: 30px;
+        /* padding-right: 70px; */
+        margin-top: 40px;
+        position: block;
       }
-      */
+      /* top: 20%; */
+      /* position: absolute; */
       /* the footer starts here */
 
       footer {
         background-color: black;
-        padding: 51px;
         color: #f7f5f2;
-        height: fit-content;
         bottom: 0;
+        /* position: absolute;
         width: 92%;
-        position: absolute;
+        margin-left: 900px;
+        padding: 51px;
+        align-items: center;
+        align-self: center;
+        align-content: center;
+        align: center;
+        left: 20px;
+        height: fit-content;*/
+      }
+
+      td {
+        /* height: auto; */
+        /* margin-left: 20px; */
+        /* width: 40px; */
+      }
+
+      .line {
+        line-height: 2em;
+        text-align: center;
+        font-size: 15px;
       }
     </style>
   </head>
@@ -112,13 +152,18 @@
       <li class="navright">Sign up</li>
     </nav>
     <!--body-->
-    <div class="webpage">
-      <div class="logincreate">
-        <p class="login">Login</p>
-        <a class="create" href="url">or create an account</a>
+    <div class="body">
+      <div class="centerwebpage">
+        <div class="logincreate">
+          <p class="login">Login</p>
+          <a class="create" href="url">or create an account</a>
+        </div>
+        <div class="googleapple">
+          <button class="google">Continue with google</button>
+          <button class="apple">Continue with apple</button>
+          <p class="line">or</p>
+        </div>
       </div>
-      <button class="google">Continue with google</button>
-      <button class="apple">Continue with apple</button>
     </div>
     <footer>
       <table>
