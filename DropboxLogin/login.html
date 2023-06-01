@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      /* This is the navigation */
+      body {
+        min-height: 5000px;
+      }
+
+      nav {
+        font-size: 20px;
+        color: #1e1919;
+        position: fixed;
+        margin-top: 0;
+        border: 1px solid green;
+      }
+
+      nav img {
+        position: fixed;
+      }
+
+      li {
+        display: inline;
+        text-align: center;
+        padding: 12px;
+        padding-left: 50px;
+        /* border-bottom: 1px solid grey; */
+      }
+      .navleft {
+        float: left;
+      }
+
+      .navright {
+        float: right;
+        padding-left: 64.4em;
+      }
+
+      nav span {
+        font-weight: 600;
+      }
+      /* This is where the content starts */
+      .webpage {
+        border: 4px solid red;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-top: 100px;
+        padding-left: 200px;
+        padding-bottom: 350px;
+        position: relative;
+      }
+
+      .logincreate {
+        border: 3px solid yellow;
+        margin-top: 70px;
+        margin-left: -250px;
+      }
+      .login {
+        float: left; /* This keeps login on the left */
+        /* position: left; */
+      }
+
+      .create {
+        float: right; /* This keeps create on the right*/
+        /* position: right; */
+        padding-left: 60px; /* This is the space between create and login */
+        padding-top: 15px; /* This aligns create and login vertically */
+      }
+
+      button {
+        left: 50%;
+        border: none;
+        padding-left: 60px;
+        padding-right: 60px;
+      }
+
+      .google {
+        margin-top: 0;
+        position: absolute;
+        height: 24px;
+      }
+
+      .apple {
+        margin-top: 0;
+        position: absolute;
+        height: 24px;
+        top: 20%;
+        margin-top: 30px;
+      }
+      */
+      /* the footer starts here */
+
+      footer {
+        background-color: black;
+        padding: 51px;
+        color: #f7f5f2;
+        height: fit-content;
+        bottom: 0;
+        width: 92%;
+        position: absolute;
+      }
+    </style>
+  </head>
+  <body>
+    <nav>
+      <img src="logobutton.png" alt="Logo" />
+      <li class="navleft"><span>Dropbox </span></li>
+      <li class="navright">Sign up</li>
+    </nav>
+    <!--body-->
+    <div class="webpage">
+      <div class="logincreate">
+        <p class="login">Login</p>
+        <a class="create" href="url">or create an account</a>
+      </div>
+      <button class="google">Continue with google</button>
+      <button class="apple">Continue with apple</button>
+    </div>
+    <footer>
+      <table>
+        <tr>
+          <td>Dropbox</td>
+          <td>Products</td>
+          <td>Support</td>
+          <td>Community</td>
+          <td>Company</td>
+        </tr>
+        <tr>
+          <td>Desktop app</td>
+          <td>Plus</td>
+          <td>Help center</td>
+          <td>Blog</td>
+          <td>About us</td>
+        </tr>
+        <tr>
+          <td>Mobile app</td>
+          <td>Professions</td>
+          <td>Contact us</td>
+          <td>Developers</td>
+          <td>Jobs</td>
+        </tr>
+        <tr>
+          <td>Integration</td>
+          <td>Business</td>
+          <td>Privacy & terms</td>
+          <td>Community forums</td>
+          <td>Investory relations</td>
+        </tr>
+        <tr>
+          <td>Features</td>
+          <td>Enterprise</td>
+          <td>Cookie Policy</td>
+          <td>Referrals</td>
+          <td>ESG</td>
+        </tr>
+        <tr>
+          <td>Solutions</td>
+          <td>Dropbox Sign</td>
+          <td>Cookies & CCPA preferences</td>
+          <td>Reseller partners</td>
+          <td>Find a partner</td>
+        </tr>
+        <tr>
+          <td>Do more than store</td>
+          <td>DocSend</td>
+          <td>Sitemap</td>
+          <td>Intergration partners</td>
+        </tr>
+        <tr>
+          <td>Security</td>
+          <td>Plans</td>
+          <td>Learning resources</td>
+        </tr>
+        <tr>
+          <td>Advance access</td>
+          <td>Product updates</td>
+        </tr>
+        <tr>
+          <td>Sum</td>
+          <td>$180</td>
+        </tr>
+      </table>
+    </footer>
+  </body>
+</html>

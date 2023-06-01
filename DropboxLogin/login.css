@@ -1,0 +1,59 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  font-family: "Times New Roman", Times, serif;
+}
+/* nav {
+  width: 50%;
+  float: left;
+  border: 2px solid red;
+}
+
+#logo {
+  width: 100px;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  display: inline;
+}
+
+div {
+  width: 10%;
+  float: left;
+} */
+
+nav {
+  overflow: hidden;
+  font-size: 20px;
+  border-style: solid;
+  text-decoration: none;
+  border: 0px;
+}
+
+nav a {
+  color: black;
+  text-align: center;
+  padding: 14px 16px green;
+}
+
+nav a:hover,
+.dropdown:hover .dropbtn {
+  background-color: red;
+  margin: 0;
+}
+
+.navleft {
+  float: left;
+  padding: 16px;
+  border-style: solid green;
+}
+
+.navright {
+  float: right;
+}
