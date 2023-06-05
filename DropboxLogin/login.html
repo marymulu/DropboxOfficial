@@ -8,89 +8,37 @@
     <link rel="stylesheet" href="login.css" />
   </head>
   <body>
-    <nav>
-      <img src="logobutton.png" alt="Logo" />
-      <li class="navleft"><span>Dropbox </span></li>
-      <li class="navright">Sign up</li>
-    </nav>
-    <!--body-->
-    <div class="body">
-      <div class="centerwebpage">
-        <div class="logincreate">
-          <p class="login">Login</p>
-          <a class="create" href="url">or create an account</a>
+    <!--This is the navigation-->
+    <header class="DropboxHead">
+      <img class="DBLogo" src="./logobutton.png" alt="Dropbox Logo" />
+      <h1>Dropbox</h1>
+    </header>
+    <!--This is the body-->
+    <main>
+      <div class="Container">
+        <h2>Log In or Sign Up</h2>
+
+        <section>
+          <a href=""
+            ><img class="Logo" src="./googleLogo.png" alt="Google Logo" />
+            <span class="ButtonSpan">Continue with Google</span>
+          </a>
+          <a href=""
+            ><img class="Logo" src="./appleLogo.png" alt="Apple Logo" />
+            <span class="ButtonSpan">Continue with Apple</span>
+          </a>
+        </section>
+
+        <div id="OrLine">
+          <span>Or</span>
         </div>
-        <div class="googleapple">
-          <button class="google">Continue with google</button>
-          <button class="apple">Continue with apple</button>
-          <p class="line">or</p>
-        </div>
+
+        <form action="">
+          <label for="Email">Email</label>
+          <input type="email" name="Email" id="Email" />
+          <button>Continue</button>
+        </form>
       </div>
-    </div>
-    <footer>
-      <table>
-        <tr>
-          <td>Dropbox</td>
-          <td>Products</td>
-          <td>Support</td>
-          <td>Community</td>
-          <td>Company</td>
-        </tr>
-        <tr>
-          <td>Desktop app</td>
-          <td>Plus</td>
-          <td>Help center</td>
-          <td>Blog</td>
-          <td>About us</td>
-        </tr>
-        <tr>
-          <td>Mobile app</td>
-          <td>Professions</td>
-          <td>Contact us</td>
-          <td>Developers</td>
-          <td>Jobs</td>
-        </tr>
-        <tr>
-          <td>Integration</td>
-          <td>Business</td>
-          <td>Privacy & terms</td>
-          <td>Community forums</td>
-          <td>Investory relations</td>
-        </tr>
-        <tr>
-          <td>Features</td>
-          <td>Enterprise</td>
-          <td>Cookie Policy</td>
-          <td>Referrals</td>
-          <td>ESG</td>
-        </tr>
-        <tr>
-          <td>Solutions</td>
-          <td>Dropbox Sign</td>
-          <td>Cookies & CCPA preferences</td>
-          <td>Reseller partners</td>
-          <td>Find a partner</td>
-        </tr>
-        <tr>
-          <td>Do more than store</td>
-          <td>DocSend</td>
-          <td>Sitemap</td>
-          <td>Intergration partners</td>
-        </tr>
-        <tr>
-          <td>Security</td>
-          <td>Plans</td>
-          <td>Learning resources</td>
-        </tr>
-        <tr>
-          <td>Advance access</td>
-          <td>Product updates</td>
-        </tr>
-        <tr>
-          <td>Sum</td>
-          <td>$180</td>
-        </tr>
-      </table>
-    </footer>
+    </main>
   </body>
 </html>
